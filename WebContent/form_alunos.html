@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link href="assets/style.css" rel="stylesheet">
+<title>Formulário de Alunos</title>
+</head>
+<body>
+	<div>
+		<form name="formulario" action="alunos.jsp" method="post">
+			<table>
+				<label for="nome_aluno">Nome:</label>
+				<input id="entrada1" type="text" name="nome_aluno"><br/>
+				<label for="idade_aluno">Idade:</label>
+				<input id="entrada2" type="number" name="idade_aluno"><br/>
+				<label for="cpf_aluno">CPF:</label>
+				<input id="entrada3" type="text" name="cpf_aluno"><br/>
+			<button type="submit">Enviar</button>
+			<button type="reset" onclick="apagaCampo()">Limpar</button>
+		</form>
+	</div>
+	
+</body>
+</html>
